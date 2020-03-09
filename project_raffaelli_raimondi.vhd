@@ -48,7 +48,7 @@ architecture Behavioral of project_reti_logiche is
     signal diff_next: std_logic_vector(6 downto 0) := "0000000";
     signal diff: std_logic_vector(1 downto 0) := "00";
     
-    --Segnali per capire se l'indirizzo è stato tradotto o meno
+    --Segnali per capire se l'indirizzo Ã¨ stato tradotto o meno
     signal translate, translate_next : boolean := false;
    
 
